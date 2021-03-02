@@ -9,7 +9,7 @@
             var wifi4euLanguage = "el";
             
             // TODO: Remove or comment this line out
-            //var selftestModus = true;
+            var selftestModus = true;
         </script>
         <script type="text/javascript" src="https://collection.wifi4eu.ec.europa.eu/wifi4eu.min.js"></script>
     <head>
@@ -24,11 +24,16 @@
     
     <body>
     <div id="identityContainer" class="identity-container">   
-        <img id="wifi4eubanner">
+        <img id="wifi4eubanner" class="identity-image">
         <br>
+		<br>
         <button onclick="login();" class="button">Log in to WiFi</button>
+		<br>
+		<img src="./images/logo.png" class="logo">
+		<p>Καλώς ορίσατε στον Δήμο Παιανίας</p>
         <p>Terms of use <a href="./aup.html">here</a>.</p>
     </div>
+	
         
     </body>
 </html>
